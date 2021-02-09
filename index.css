@@ -1,0 +1,56 @@
+body {
+  height: 90vh;
+}
+
+.kontejner {
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fabrika {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-right: 15px;
+}
+
+.naziv {
+  display: flex;
+  justify-content: center;
+}
+
+.silosi {
+  justify-content: space-around;
+  display: flex;
+  height: 100%;
+}
+
+.silos {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.oznaka {
+  display: flex;
+  justify-content: center;
+}
+
+.status {
+  display: flex;
+  justify-content: center;
+}
+
+.popunaDiv {
+  height: 100%;
+  display: flex;
+  border: 1.5px solid black;
+  flex-direction: column-reverse;
+}
+
+.popuna {
+  display: flex;
+  background-color: blue;
+}
